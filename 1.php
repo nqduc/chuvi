@@ -1,10 +1,10 @@
 <html>
    
   <head>
-      <title>Bài tập</title>
+      <title>exercise</title>
   </head>
   <body>
-       <p>bài tập 1</p>
+       <p>exercise1</p>
    
   <?php
     class coucu {  
@@ -15,54 +15,54 @@
       $this->_y = $y;  
     }  
     
-    function add() {  
+    function in-coucu() {  
       return $this->_x + $this->_y;  
     }  
     
-      function add1() {  
+      function in-coucu1() {  
       return $this->_x - $this->_y;  
     }  
     
-      function add2() {  
+      function in-coucu2() {  
       return $this->_x * $this->_y;  
     }  
   
-      function add3() {  
+      function in-coucu3() {  
       return $this->_x / $this->_y;  
     }  
   }  
-    $maytinh = new coucu(100, 20);   
-    echo $maytinh-> add(); 
+    $computer = new coucu(100, 20);   
+    echo $computer-> in-coucu(); 
     echo "<br>";
-    echo $maytinh-> add1(); 
+    echo $computer-> in-coucu1(); 
     echo "<br>";
-    echo $maytinh-> add2(); 
+    echo $computer-> in-coucu2(); 
     echo "<br>";
-    echo $maytinh-> add3();
+    echo $computer-> in-coucu3();
 ?>
 <?php 
   
-  class hinhvuong  {  
+  class square  {  
   private $x;  
     
     function __construct( $x) {
       $this->_x = $x ;
     }
-    function C () {
+    function perimeter () {
       return $this->_x * 4 ;
     }
-    function D () {
+    function electricity () {
       return $this->_x * $this->_x;
     }
   }
-    $chuvivadientich = new hinhvuong (20);
-    echo $chuvivadientich-> C() ;
+    $total = new square (20);
+    echo $total-> perimeterto() ;
     echo "<br>" ;
-    echo $chuvivadientich-> D() ;
+    echo $total-> electricity() ;
 ?>
 <?php
 
-  class tamgiac {
+  class triangle {
     private $a ,$b , $c, $h;
 
       function __construct($a ,$b ,$c ,$h) {
@@ -71,17 +71,17 @@
       $this->_c = $c;  
       $this->_h = $h;   
   }
-  function D() {  
+  function electricity() {  
     return $this->_c * 0.5 *  $this->_h ;  
   }
-  function C() {  
+  function perimeter() {  
     return $this->_a+ $this->_b + $this->_c ;
   }
   }
-  $dientichvachuvi = new tamgiac (7 ,5 ,10 ,6);   
-  echo $dientichvachuvi-> D(); 
+  $total = new triangle (7 ,5 ,10 ,6);   
+  echo $total-> electricity(); 
   echo "<br>";
-  echo $dientichvachuvi-> C(); 
+  echo $total-> perimeter(); 
   echo "<br>";
 ?>
 </body>
