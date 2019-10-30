@@ -30,7 +30,7 @@
       function in_calculation3() {  
       return $this->_x / $this->_y;  
     }  
-  }  
+    }  
     $computer = new calculation(100, 20);   
     echo $computer-> in_calculation(); 
     echo "<br>";
@@ -54,7 +54,7 @@
     function electricity () {
       return $this->_x * $this->_x;
     }
-  }
+    }
     $total = new square (20);
     echo $total-> perimeter() ;
     echo "<br>" ;
