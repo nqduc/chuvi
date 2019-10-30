@@ -7,7 +7,7 @@
        <p>exercise1</p>
    
   <?php
-    class coucu {  
+    class calculation {  
     private $x, $y;  
     
     function __construct( $x, $y ) {  
@@ -15,30 +15,30 @@
       $this->_y = $y;  
     }  
     
-    function in-coucu() {  
+    function in_calculation() {  
       return $this->_x + $this->_y;  
     }  
     
-      function in-coucu1() {  
+      function in_calculation1() {  
       return $this->_x - $this->_y;  
     }  
     
-      function in-coucu2() {  
+      function in_calculation2() {  
       return $this->_x * $this->_y;  
     }  
   
-      function in-coucu3() {  
+      function in_calculation3() {  
       return $this->_x / $this->_y;  
     }  
   }  
-    $computer = new coucu(100, 20);   
-    echo $computer-> in-coucu(); 
+    $computer = new calculation(100, 20);   
+    echo $computer-> in_calculation(); 
     echo "<br>";
-    echo $computer-> in-coucu1(); 
+    echo $computer-> in_calculation1(); 
     echo "<br>";
-    echo $computer-> in-coucu2(); 
+    echo $computer-> in_calculation2(); 
     echo "<br>";
-    echo $computer-> in-coucu3();
+    echo $computer-> in_calculation3();
 ?>
 <?php 
   
@@ -56,7 +56,7 @@
     }
   }
     $total = new square (20);
-    echo $total-> perimeterto() ;
+    echo $total-> perimeter() ;
     echo "<br>" ;
     echo $total-> electricity() ;
 ?>
