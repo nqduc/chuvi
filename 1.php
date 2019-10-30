@@ -4,7 +4,7 @@
       <title>exercise</title>
   </head>
   <body>
-       <p>exercise1</p>
+      <p>exercise1</p>
    
   <?php
     class calculation {  
@@ -63,7 +63,7 @@
 <?php
 
   class triangle {
-    private $a ,$b , $c, $h;
+  private $a ,$b , $c, $h;
 
       function __construct($a ,$b ,$c ,$h) {
       $this->_a = $a;  
