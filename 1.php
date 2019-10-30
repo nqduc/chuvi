@@ -10,7 +10,7 @@
     class calculation {  
     private $x, $y;  
     
-    function __construct( $x, $y ) {  
+    function __construct ( $x, $y ) {  
       $this->_x = $x;  
       $this->_y = $y;  
     }  
@@ -78,10 +78,10 @@
     return $this->_a+ $this->_b + $this->_c ;
   }
   }
-  $total = new triangle (7 ,5 ,10 ,6);   
-  echo $total-> electricity(); 
+  $total = new triangle(7 ,5 ,10 ,6);   
+  echo $total->electricity(); 
   echo "<br>";
-  echo $total-> perimeter(); 
+  echo $total->perimeter(); 
   echo "<br>";
 ?>
 </body>
